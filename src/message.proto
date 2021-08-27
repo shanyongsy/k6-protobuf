@@ -1,0 +1,10 @@
+syntax = "proto3";
+package msg;
+
+enum cmdId {
+  ECHO = 0;
+}
+
+message echoMsg {
+  string msg = 1;
+}
